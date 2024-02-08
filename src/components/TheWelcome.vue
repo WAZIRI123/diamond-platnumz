@@ -1,52 +1,14 @@
-<html lang="en"><head>
-        <title>Tyla – Official Website</title>
-        <meta charset="UTF-8">
-        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-        <meta content="Official site for Tyla" name="description">
-        <meta content="en_US" property="og:locale">
-        <meta content="website" property="og:type">
-        <meta content="Tyla – Official Website" property="og:title">
-        <meta content="Official site for Tyla" property="og:description">
-        <meta content="" property="og:url">
-        <meta content="" property="og:image">
-        <meta content="Tyla – Official Website" property="og:site_name">
-        <meta content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=1" name="viewport">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900;1000&amp;display=swap" rel="stylesheet">
-        <link href="dist/css/style.min.css" rel="stylesheet">
-        <link href="./dist/img/art/tyla.jpg" rel="icon" type="image/png">
-    </head>
-    <body>
+<script setup>
+import WelcomeItem from './WelcomeItem.vue'
+import DocumentationIcon from './icons/IconDocumentation.vue'
+import ToolingIcon from './icons/IconTooling.vue'
+import EcosystemIcon from './icons/IconEcosystem.vue'
+import CommunityIcon from './icons/IconCommunity.vue'
+import SupportIcon from './icons/IconSupport.vue'
+</script>
 
-    <noscript>
-        <iframe
-            height="0"
-            src="//www.googletagmanager.com/ns.html?id=GTM-NQR5LZ"
-            style="display:none;visibility:hidden"
-            width="0"
-        ></iframe
-        >
-    </noscript>
-
-    <div class="page-wrapper">
-        <a href="#videos" class="page-switch float-link"><img src="./dist/img/videos.png" alt="Videos"></a>
-        <a href="#music" class="page-switch float-link"><img src="./dist/img/music.png" alt="Music"></a>
-        <a href="#tour" class="page-switch float-link"><img src="./dist/img/tour.png" alt="Tour"></a>
-        <a href="#bio" class="page-switch float-link"><img src="./dist/img/bio.png" alt="Bio"></a>
-        <a href="#subscribe" class="page-switch float-link"><img src="./dist/img/subscribe.png" alt="Subscribe"></a>
-        <header id="header">
-            <h1><a href="#home" class="page-switch"><img src="./dist/img/logo.png" alt="Tyla"></a></h1>
-            <div class="social">
-                <a href="https://twitter.com/Tyllaaaaaaa" target="_blank"><img src="./dist/img/twitter.png" alt="Twitter"></a>
-                <a href="https://www.tiktok.com/@tyla_" target="_blank"><img src="./dist/img/tiktok.png" alt="Tiktok"></a>
-                <a href="https://www.instagram.com/tyla/" target="_blank"><img src="./dist/img/insta.png" alt="Instagram"></a>
-                <a href="https://www.youtube.com/channel/UC8HOgNWipVorrlBH8oN2R-A" target="_blank"><img src="./dist/img/youtube.png" alt="YouTube"></a>
-                <a href="https://www.facebook.com/Tylasings/" target="_blank"><img src="./dist/img/facebook.png" alt="Facebook"></a>
-            </div>
-        </header>
-        <main id="main">
-            <section id="home" class="page">
+<template>
+   <section id="home" class="page">
                 <div class="container">
     
                     <a href="https://tyla.lnk.to/tyla" target="_blank" class="music-item">
@@ -139,4 +101,5 @@
             </section>
             <section id="tour" class="page">
                 <div class="container">
-                    <div id="seated-55fdf2c0" data-artist-id="0b1fc9f4-d6f1-421b-b625-ec63e699457c" data-css-version="3"></div><script src="https://widget.seated.com/app.js"></script></div></section></main></div></body></html>
+                    <div id="seated-55fdf2c0" data-artist-id="0b1fc9f4-d6f1-421b-b625-ec63e699457c" data-css-version="3"></div><script src="https://widget.seated.com/app.js"></script></div></section>
+</template>
